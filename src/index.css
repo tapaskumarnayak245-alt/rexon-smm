@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  background: #020617;
+  color: #f1f5f9;
+  font-family: Arial, sans-serif;
+}
