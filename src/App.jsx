@@ -338,5 +338,12 @@ export default function App() {
                           className={`py-2.5 px-3 rounded-xl border text-xs font-bold transition-all ${selectedPlatform === plat ? 'bg-cyan-500 text-black border-cyan-400 shadow-md shadow-cyan-500/20' : 'bg-slate-800 border-slate-700 text-slate-300 hover:bg-slate-750'}`}
                         >
                           {plat}
-                        </button>
+                        </buttom>
+      </div>
+    </div>
+  );
+}
+
+export default App;
+                      
               
