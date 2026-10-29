@@ -1,15 +1,25 @@
 {
   "name": "rexon-smm-panel",
   "version": "1.0.0",
-  "description": "Commercial Full-Stack SMM Panel",
+  "private": true,
   "main": "server.js",
   "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
     "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.19.2",
     "cors": "^2.8.5",
     "pg": "^8.11.3",
-    "axios": "^1.6.8"
+    "axios": "^1.6.8",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "lucide-react": "^0.468.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.0"
   }
 }
+
