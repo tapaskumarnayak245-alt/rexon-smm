@@ -339,9 +339,3 @@ export default function App() {
                         >
                           {plat}
                         </buttom>
-                     </div>
-                   </div>
-                  );
-                 }
-                      
-              
